@@ -10,3 +10,4 @@
 include_recipe  'base'
 log "In Wrapepr one"
 log "Root path: #{node['passenger']['root_path']}"
+log "Root path 2: #{node['passenger']['root_path_2']}"
