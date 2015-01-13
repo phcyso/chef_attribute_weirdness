@@ -8,6 +8,10 @@
 #
 
 include_recipe  'base'
-log "In Wrapepr one"
+log "In Wrapper one"
 log "Root path: #{node['passenger']['root_path']}"
 log "Root path 2: #{node['passenger']['root_path_2']}"
+
+log "hash of attributes for testing"
+log "node['passenger'].to_hash: #{node['passenger'].to_hash}"
+log "node.passenger.to_hash: #{node.passenger.to_hash}"
